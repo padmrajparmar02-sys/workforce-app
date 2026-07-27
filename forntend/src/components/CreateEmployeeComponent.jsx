@@ -42,7 +42,7 @@ class CreateEmployeeComponent extends Component {
             firstName: this.state.firstName, 
             lastName: this.state.lastName, 
             emailId: this.state.emailId,
-            active: true 
+           // active: true 
         };
         console.log('employee => ' + JSON.stringify(employee));
 
